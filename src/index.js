@@ -6,11 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider, Route, createRoutesFromElements } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import { ThemeProvider } from './context/ThemeContext';
+import NewsEvents from './pages/NewsEvents';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Dashboard/>} />
+      <Route path="new" element={<NewsEvents/>} />
     </Route>
   )
 );
