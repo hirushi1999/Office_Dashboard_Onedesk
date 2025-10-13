@@ -7,12 +7,14 @@ import { createBrowserRouter, RouterProvider, Route, createRoutesFromElements } 
 import Dashboard from './pages/Dashboard';
 import { ThemeProvider } from './context/ThemeContext';
 import NewsEvents from './pages/NewsEvents';
+import Project from './pages/Project';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Dashboard/>} />
       <Route path="new" element={<NewsEvents/>} />
+      <Route path="project" element={<Project/>}/>
     </Route>
   )
 );

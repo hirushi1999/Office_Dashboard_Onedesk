@@ -31,14 +31,14 @@ const NewsEvents = () => {
               <div className='dark:bg-gray-900 dark:text-white w-full lg:w-1/3 bg-slate-50 p-2 m-4 rounded-xl lg:ml-10'>
                 <h1 className='text-center m-4 sm:m-1 text-lg text-cyan-700 font-semibold'>Annual Outing 2025 – A Day to Remember!</h1>
                 <img src={ Hotel } alt="hotel " className=" w-auto h-auto object-contain"/>
-                <p className='text-base m-1 text-justify'>Our much-anticipated Annual Outing took place on September 5, and it was truly a day filled with fun, laughter, and team spirit. Employees from across departments came together to unwind, connect, and enjoy a refreshing break from the usual routine.
+                <p className='text-base m-1 text-justify'>Our much-anticipated Annual Outing took place on October 5, and it was truly a day filled with fun, laughter, and team spirit. Employees from across departments came together to unwind, connect, and enjoy a refreshing break from the usual routine.
                 The day featured a perfect blend of outdoor activities, team games, and relaxation, creating unforgettable memories for everyone.</p>
                 <p className='text-base mt-16 underline text-cyan-700 cursor-pointer'>Read More</p>
               </div>
               <div className='dark:bg-gray-900 dark:text-white w-full lg:w-1/3 bg-slate-50 p-2 m-4 rounded-xl lg:ml-10'>
                 <h1 className='text-center m-4 sm:m-1 text-lg text-cyan-700 font-semibold'>Blood Donation Campaign – August 28</h1>
                 <img src={ Blood } alt="hotel " className=" w-auto h-auto object-contain"/>
-                <p className='text-base m-1 text-justify'>We are proud to share the success of our recent Blood Donation Campaign held on August 28 at our office premises. This meaningful initiative was organized to support those in need and promote the spirit of giving back to the community.
+                <p className='text-base m-1 text-justify'>We are proud to share the success of our recent Blood Donation Campaign held on September 28 at our office premises. This meaningful initiative was organized to support those in need and promote the spirit of giving back to the community.
                 With the incredible participation of our employees, the event saw a great turnout and several units of blood were donated—each one making a difference in someone’s life. </p>
                 <p className='text-base mt-4 underline text-cyan-700 cursor-pointer'>Read More</p>
               </div>

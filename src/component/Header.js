@@ -28,7 +28,7 @@ const Header = () => {
     <>
       <NavLink to={""} className={({ isActive }) => isActive ? 'text-rose-800' : 'text-cyan-700 hover:text-slate-400'} end>DASHBOARD</NavLink>
       <NavLink to={"new"} className={({ isActive }) => isActive ? 'text-rose-800' : 'text-cyan-700 hover:text-slate-400'} end>NEWS & EVENTS</NavLink>
-      <NavLink to={"order"} className={({ isActive }) => isActive ? 'text-rose-800' : 'text-cyan-700 hover:text-slate-400'} end>PROJECTS</NavLink>
+      <NavLink to={"project"} className={({ isActive }) => isActive ? 'text-rose-800' : 'text-cyan-700 hover:text-slate-400'} end>PROJECTS</NavLink>
       <NavLink to={"about"} className={({ isActive }) => isActive ? 'text-rose-800' : 'text-cyan-700 hover:text-slate-400'} end>BLOG</NavLink>
       <NavLink to={"contact"} className={({ isActive }) => isActive ? 'text-rose-800' : 'text-cyan-700 hover:text-slate-400'} end>REQUESTS</NavLink>
     </>
