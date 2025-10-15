@@ -155,7 +155,7 @@ const Dashboard = () => {
             </div>
             {/* <Calendar/> */}
           </div>
-          <div className='dark:bg-gray-800 p-2 sm:m-4 lg:mr-10 shadow-md rounded-xl bg-slate-50 max-w-full'>
+          <div className='dark:bg-gray-800'>
             <WeatherWidget />
           </div>
         </div>
